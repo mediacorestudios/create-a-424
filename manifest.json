@@ -1,0 +1,61 @@
+{
+  "siteId": "create-a-424",
+  "siteName": "jonaca-martin",
+  "generationMode": "creative-premium",
+  "layout": "premium",
+  "componentRoot": "src/components/sections",
+  "componentExtensions": [
+    ".tsx",
+    ".jsx"
+  ],
+  "meta": {
+    "title": "Jonaca Martin",
+    "description": "Create a high-conversion, TikTok-first landing page for Jonaca Martin, a modern influencer and curator selling recommended products and collaborations. The page",
+    "designVision": "A bold, creator-first aesthetic that channels TikTok energy into a premium shopping experience. Typography is unapologetically large with extreme weight contrast—ultra-bold display headlines paired with light, airy body text. The color palette centers on deep charcoal black and crisp white with warm cream undertones, punctuated by a single electric coral accent (#FF6B5B) that feels confident without being aggressive. Motion is tactile and immediate—subtle scale transforms on tap, smooth reveals on scroll, and micro-interactions that reward engagement. Layout philosophy prioritizes vertical rhythm for thumb-scrolling, with generous breathing room between sections (80-120px mobile, 120-160px desktop). Glass morphism appears sparingly on floating elements. The overall vibe: if a luxury fashion editorial met a viral creator's link-in-bio, designed by someone who actually understands social commerce.",
+    "theme": {
+      "primary": "#1A1A1A",
+      "secondary": "#F5F3F0",
+      "accent": "#FF6B5B",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    },
+    "fonts": {
+      "serif": "DM Serif Display",
+      "display": "Space Grotesk",
+      "sans": "Inter",
+      "heading": "Space Grotesk",
+      "body": "Inter"
+    }
+  },
+  "components": [
+    "CreatorHeader",
+    "CreatorHero",
+    "FeaturedDrops",
+    "WhyIRecommend",
+    "SocialProofBar",
+    "ShopTheEdit",
+    "MeetJonaca",
+    "CollabCTA",
+    "JoinTheList",
+    "CreatorFooter"
+  ],
+  "sectionOrder": [
+    "CreatorHeader",
+    "CreatorHero",
+    "FeaturedDrops",
+    "WhyIRecommend",
+    "SocialProofBar",
+    "ShopTheEdit",
+    "MeetJonaca",
+    "CollabCTA",
+    "JoinTheList",
+    "CreatorFooter"
+  ],
+  "modelInfo": {
+    "planningModel": "anthropic/claude-opus-4.5",
+    "generationModel": "anthropic/claude-opus-4.5",
+    "imageModel": "runware:100@1"
+  },
+  "generatedAt": "2025-12-25T14:02:45.548Z",
+  "updatedAt": "2025-12-25T14:02:45.548Z"
+}
