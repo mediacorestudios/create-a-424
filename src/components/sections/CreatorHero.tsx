@@ -74,7 +74,7 @@ export default function CreatorHero() {
                 JONACA
               </h1>
 
-              {/* MARTIN - Outline only */}
+              {/* MARTIN. - Outline only */}
               <h1
                 className="leading-none"
                 style={{
@@ -86,7 +86,7 @@ export default function CreatorHero() {
                   WebkitTextStroke: "2px #1A1A1A",
                 }}
               >
-                MARTIN
+                MARTIN....
               </h1>
             </motion.div>
 
