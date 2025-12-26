@@ -4,10 +4,8 @@ import { cn } from "@/lib/utils";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
 export default function CreatorHero() {
   const { ref, isVisible } = useScrollReveal();
-
   return (
     <section
       id="creator-hero"
@@ -22,7 +20,6 @@ export default function CreatorHero() {
     >
       {/* Subtle grain overlay */}
       <div className="grain-overlay" />
-
       <div className="w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-12 py-24 md:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Mobile: Image first */}
@@ -52,7 +49,6 @@ export default function CreatorHero() {
               </div>
             </div>
           </motion.div>
-
           {/* Left side - Typography (60% on desktop) */}
           <div className="lg:col-span-7 text-center lg:text-left">
             <motion.div
@@ -73,7 +69,6 @@ export default function CreatorHero() {
               >
                 JONACA
               </h1>
-
               {/* MARTIN. - Outline only */}
               <h1
                 className="leading-none"
@@ -86,10 +81,9 @@ export default function CreatorHero() {
                   WebkitTextStroke: "2px #1A1A1A",
                 }}
               >
-                MARTIN....
+                MARTIN.
               </h1>
             </motion.div>
-
             {/* Positioning line */}
             <motion.p
               initial={{ opacity: 0, y: 40 }}
@@ -100,7 +94,6 @@ export default function CreatorHero() {
             >
               Creator. Curator. Obsessed with what works.
             </motion.p>
-
             {/* CTAs */}
             <motion.div
               initial={{ opacity: 0, y: 40 }}
@@ -119,7 +112,6 @@ export default function CreatorHero() {
                 Shop My Picks
                 <ArrowRight className="ml-2 w-5 h-5 inline-block transition-transform duration-300 group-hover:translate-x-1" />
               </Button>
-
               <a
                 href="#"
                 className="group flex items-center gap-2 text-[#1A1A1A] font-medium text-base hover:text-[#FF6B5B] transition-colors duration-300"
@@ -129,7 +121,6 @@ export default function CreatorHero() {
               </a>
             </motion.div>
           </div>
-
           {/* Right side - Image (40% on desktop, hidden on mobile) */}
           <motion.div
             initial={{ opacity: 0, y: 60, rotate: 0 }}
@@ -147,7 +138,6 @@ export default function CreatorHero() {
                 className="absolute inset-0 rounded-3xl bg-[#EAE7E3] transform translate-x-3 translate-y-3"
                 style={{ boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.15)" }}
               />
-
               {/* Main image container */}
               <div
                 className="relative rounded-3xl overflow-hidden bg-[#F5F3F0]"
@@ -161,7 +151,6 @@ export default function CreatorHero() {
                   alt="Jonaca Martin"
                   className="w-full max-w-[400px] xl:max-w-[480px] h-auto object-cover"
                 />
-
                 {/* Subtle overlay gradient */}
                 <div
                   className="absolute inset-0 pointer-events-none"
@@ -175,7 +164,6 @@ export default function CreatorHero() {
           </motion.div>
         </div>
       </div>
-
       {/* Decorative elements */}
       <motion.div
         initial={{ opacity: 0 }}
