@@ -81,7 +81,7 @@ export default function CreatorHero() {
                   WebkitTextStroke: "2px #1A1A1A",
                 }}
               >
-                MARTIN.
+                MARTIN
               </h1>
             </motion.div>
             {/* Positioning line */}
@@ -92,7 +92,7 @@ export default function CreatorHero() {
               className="mt-8 md:mt-12 text-[#1A1A1A] font-light text-lg md:text-xl tracking-wide"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
-              Creator. Curator. Obsessed with what works.
+              Creator. Curator. Obsessed with what works
             </motion.p>
             {/* CTAs */}
             <motion.div
