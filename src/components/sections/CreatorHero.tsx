@@ -67,7 +67,7 @@ export default function CreatorHero() {
                   letterSpacing: "-0.04em",
                 }}
               >
-                JONACA
+                JONACA.
               </h1>
               {/* MARTIN.......... - Outline only */}
               <h1
