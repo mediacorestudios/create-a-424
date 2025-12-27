@@ -147,7 +147,7 @@ export default function CreatorHero() {
                 }}
               >
                 <img
-                  src="images/4b712faf-60bf-425c-b4f7-fb9290d279eb.webp"
+                  src="images/36f8581c-7794-4ab1-8515-1dc938439f46.webp"
                   alt="Jonaca Martin"
                   className="w-full max-w-[400px] xl:max-w-[480px] h-auto object-cover"
                 />
