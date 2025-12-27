@@ -42,7 +42,7 @@ export default function CreatorHero() {
                 }}
               >
                 <img
-                  src="images/e7adeaa6-fd0d-454b-96a6-96f9aca903ef.webp"
+                  src="images/329.jpg"
                   alt="Jonaca Martin"
                   className="w-full max-w-[320px] h-auto object-cover"
                 />
@@ -147,7 +147,7 @@ export default function CreatorHero() {
                 }}
               >
                 <img
-                  src="images/e7adeaa6-fd0d-454b-96a6-96f9aca903ef.webp"
+                  src="images/4b712faf-60bf-425c-b4f7-fb9290d279eb.webp"
                   alt="Jonaca Martin"
                   className="w-full max-w-[400px] xl:max-w-[480px] h-auto object-cover"
                 />
